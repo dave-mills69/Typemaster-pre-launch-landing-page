@@ -71,16 +71,21 @@ p.release {
     font-size: 16px;
 }
 
+
 .keyboard-mobile {
     border-radius: 20px;
     margin-left: 24px;
     margin-top: 64px;
+    margin-bottom: 24px;
     width: 372px;
     height: 331px;
 }
 
+.side-by-side-pics {
+    height: 200px;
+}
 
-.left-img{
+.left-img {
     display: inline-block;
     border-radius: 20px;
     background-color: #ef6718;
@@ -88,14 +93,61 @@ p.release {
     background-image: url("assets/mobile/image-phone-and-keyboard.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 25%;
-    height: 33vw;
+    width: 129px;
+    height: 193px;
     border-radius: 20px;
-    margin-right: 2vw;
+    margin-right: 24px;
+    float: left;
 }
 
-.glass-mobile {
+.right-img {
+    position: absolute;
+    display: inline-block;
+    background-image: url("assets/mobile/image-glass-and-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 220px;
     height: 193px;
-    display: inline-block;
+    border-radius: 20px;
+    float: right;
+    margin-right: 24px;
 }
+
+.side-by-side-pics {
+    margin-bottom: 83px;
+}
+.mech-wireless-txt > p {
+    font-family: 'barlow', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+}
+
+.margin-p {
+    margin-top: 83px;
+}
+
+.p-under-mech-txt {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.bg-icon {
+    display: flex;
+    width: 62.5px;
+    height: 65px;
+    background-color: #EF6718;
+    border-radius: 15px;
+    /* background-image: "./assets/shared/icon-compatible.svg"; */
+}
+
+.m-auto {
+    justify-self: center;
+}
+
