@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    
+    .header-container {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .pre-order-orange {
+        font-size: 0.8rem;   
+       }
+
+    .release {
+        font-size: 0.75rem;
+    }
+
+    .keyboard-mobile {
+        background-image: url("assets/mobile/image-keyboard.jpg") !important;
+    }
+
+    .side-by-side-pics {
+        margin-top: 20px !important;
+    }
+
+    .left-img {
+        background-image: url("assets/mobile/image-phone-and-keyboard.jpg") !important;
+    }
+
+    .right-img {
+        background-image: url("assets/mobile/image-glass-and-keyboard.jpg") !important;
+    }
+}
+

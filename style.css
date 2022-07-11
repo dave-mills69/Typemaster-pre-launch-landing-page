@@ -136,18 +136,6 @@ p.release {
     line-height: 26px;
     text-align: center;
     margin-top: 24px;
-}
-
-.bg-icon {
-    display: flex;
-    width: 62.5px;
-    height: 65px;
-    background-color: #EF6718;
-    border-radius: 15px;
-    /* background-image: "./assets/shared/icon-compatible.svg"; */
-}
-
-.m-auto {
-    justify-self: center;
+    color: #7B8BAD;
 }
 
